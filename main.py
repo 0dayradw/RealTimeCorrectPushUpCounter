@@ -2,7 +2,7 @@ import cv2, math
 import numpy as np
 import mediapipe as mp
 
-cv2.namedWindow('PushUp Project main')
+cv2.namedWindow('PushUp Project')
 camera = cv2.VideoCapture(0)
 
 CAMERA_WIDTH = 1280         # <- CHANGE HERE TO 1920 X 1080
@@ -153,7 +153,7 @@ while True:
     cv2.putText(frame_copy, f"Pushups: {number_of_pushups}", (20, 50), cv2.FONT_HERSHEY_SIMPLEX, 1.2, TEXT_COLOR, 3, cv2.LINE_AA)
     cv2.putText(frame_copy, f"State: {go}", (20, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, TEXT_COLOR, 3, cv2.LINE_AA)
 
-    cv2.imshow('PushUp Project main', frame_copy)
+    cv2.imshow('PushUp Project', frame_copy)
     if cv2.waitKey(1) == ord('q'):
         break
 
