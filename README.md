@@ -10,6 +10,7 @@ I built it to learn computer vision - and also to improve my own push-ups (I'm u
 - At each step the program **tells you when to go down / up**, so that you are on the correct pace.
 - You could also make the push-ups harder by adjusting 'valid_frames' value (from 1 to  5 / 6 or 10). 
   - The higher the value, the **longer you must hold** the “up” or “down” position.
+- Also if you want to **reset the counter** you can just **clap once** and it resets to 0.
 
 ## Tools Used
 
