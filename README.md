@@ -24,7 +24,7 @@ I built it to learn computer vision - and also to improve my own push-ups (I'm u
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/0dayradw/RealTimeCorrectPushUpCounter.git
+   git clone https://github.com/RadwB2112/RealTimeCorrectPushUpCounter.git
    cd RealTimeCorrectPushUpCounter  
    ```
 2. Install the requirements
